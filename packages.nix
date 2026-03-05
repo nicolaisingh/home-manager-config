@@ -50,7 +50,6 @@ with pkgs;
   atkinson-hyperlegible-mono
   atkinson-hyperlegible-next
 
-  # gcc
   android-tools
   appimage-run
   asciidoctor
@@ -60,8 +59,8 @@ with pkgs;
   black
   calc
   calf
-  calibre
   ccl
+  clinfo
   clisp
   clojure
   cura
@@ -146,9 +145,16 @@ with pkgs;
   unstable.aider-chat
   unstable.reaper
 
-  # Installed in dnf
+  # Installed in dnf:
+  ## Apps
+  # calibre (ebook-viewer does not work in hm)
   # dconf-editor
   # gnome-tweaks
-  # lact
   # steam
+  ## Graphics-related
+  # egl-utils
+  # lact
+  # libva-utils
+  # mesa-demos
+  # vulkan-tools
 ]
